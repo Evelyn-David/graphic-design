@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+
+    <link rel="stylesheet" href="css/reset.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <script src="https://kit.fontawesome.com/e64f7ef8dd.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,600,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body>
+    
+    <header id="header" class="bottom-border-divider">
+        <div id="logo">
+            <h1>My Graphic Design Projects</h1>
+        </div>
+    </header>
+
+    <section id="facebook">
+        <div class="container">
+                
+                <!-- <div class="offset-md-2 col-md-8 text-center" id="sign-up-header">
+                    <h1 class="text-title">Facebook posts</h1>
+                </div> -->
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1 class="text-title">Facebook posts</h1>
+                      </div>
+
+                    <div class="column">
+                      <img src="arcă-1-01.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+                    </div>
+                    <div class="column">
+                      <img src="arcă-6-01.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+                    </div>
+                    <div class="column">
+                      <img src="arcă-7-01.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+                    </div>
+                    <div class="column">
+                      <img src="arcă-8-01.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+                    </div>
+
+                    <div class="column">
+                        <img src="ransom-1.jpg" style="width:100%" onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
+                      </div>
+                      <div class="column">
+                        <img src="ransom-2.jpg" style="width:100%" onclick="openModal();currentSlide(6)" class="hover-shadow cursor">
+                      </div>
+                      <div class="column">
+                        <img src="ransom-3.jpg" style="width:100%" onclick="openModal();currentSlide(7)" class="hover-shadow cursor">
+                      </div>
+                      <div class="column">
+                        <img src="ransom-4.jpg" style="width:100%" onclick="openModal();currentSlide(8)" class="hover-shadow cursor">
+                      </div>
+
+                      <div class="col-md-12">
+                        <h1 class="text-title">Bookmarks</h1>
+                      </div>
+
+                      <div class="column">
+                        <img src="bookmark-1.png" style="width:100%" class="hover-shadow cursor">
+                      </div>
+                      <div class="column">
+                        <img src="bookmark-2.png" style="width:100%" class="hover-shadow cursor">
+                      </div>
+                      <div class="column">
+                        <img src="bookmark-3.png" style="width:100%" class="hover-shadow cursor">
+                      </div>
+                      <div class="column">
+                            <img src="bookmark-4.jpg" style="width:100%" class="hover-shadow cursor">
+                        </div>
+
+                        <div class="col-md-12">
+                            <h1 class="text-title">Icons</h1>
+                          </div>
+                        
+                        <div class="column">
+                            <img src="icon-1.png" style="width:100%" class="hover-shadow cursor">
+                        </div>
+                        <div class="column">
+                            <img src="icon-2.png" style="width:100%" class="hover-shadow cursor">
+                        </div>
+                        <div class="column">
+                            <img src="icon-3.png" style="width:100%" class="hover-shadow cursor">
+                        </div>
+                  </div>
+                  
+                  <div id="myModal" class="modal">
+                    <span class="close cursor" onclick="closeModal()">&times;</span>
+                    <div class="modal-content">
+                  
+                      <div class="mySlides">
+                        <div class="numbertext">1 / 4</div>
+                        <img src="arcă-1-01.jpg" style="width:100%">
+                      </div>
+                  
+                      <div class="mySlides">
+                        <div class="numbertext">2 / 4</div>
+                        <img src="arcă-6-01.jpg" style="width:100%">
+                      </div>
+                  
+                      <div class="mySlides">
+                        <div class="numbertext">3 / 4</div>
+                        <img src="arcă-7-01.jpg" style="width:100%">
+                      </div>
+                      
+                      <div class="mySlides">
+                        <div class="numbertext">4 / 4</div>
+                        <img src="arcă-8-01.jpg" style="width:100%">
+                      </div>
+
+                      <div class="mySlides">
+                        <div class="numbertext">5 / 4</div>
+                        <img src="ransom-1.jpg" style="width:100%">
+                      </div>
+                  
+                      <div class="mySlides">
+                        <div class="numbertext">6 / 4</div>
+                        <img src="ransom-2.jpg" style="width:100%">
+                      </div>
+                  
+                      <div class="mySlides">
+                        <div class="numbertext">7 / 4</div>
+                        <img src="ransom-3.jpg" style="width:100%">
+                      </div>
+                      
+                      <div class="mySlides">
+                        <div class="numbertext">8 / 4</div>
+                        <img src="ransom-4.jpg" style="width:100%">
+                      </div>
+<!-- 
+                      <div class="mySlides">
+                        <div class="numbertext">9 / 4</div>
+                        <img src="bookmark-1.png" style="width:100%">
+                      </div>
+                  
+                      <div class="mySlides">
+                        <div class="numbertext">10 / 4</div>
+                        <img src="bookmark-2.png" style="width:100%">
+                      </div>
+                  
+                      <div class="mySlides">
+                        <div class="numbertext">11 / 4</div>
+                        <img src="bookmark-3.png" style="width:100%">
+                      </div>
+
+                      <div class="mySlides">
+                        <div class="numbertext">12 / 4</div>
+                        <img src="bookmark-4.jpg" style="width:100%">
+                      </div>
+                  
+                      <div class="mySlides">
+                        <div class="numbertext">13 / 4</div>
+                        <img src="icon-1.png" style="width:100%">
+                      </div>
+                  
+                      <div class="mySlides">
+                        <div class="numbertext">14 / 4</div>
+                        <img src="icon-2.png" style="width:100%">
+                      </div>
+                      <div class="mySlides">
+                        <div class="numbertext">15 / 4</div>
+                        <img src="icon-3.png" style="width:100%">
+                      </div> -->
+                      
+                      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                  
+                      <div class="caption-container">
+                        <p id="caption"></p>
+                      </div>
+                  
+                  
+                      <div class="column">
+                        <img class="demo cursor" src="arcă-1-01.jpg" style="width:100%" onclick="currentSlide(1)" alt="">
+                      </div>
+                      <div class="column">
+                        <img class="demo cursor" src="arcă-6-01.jpg" style="width:100%" onclick="currentSlide(2)" alt="">
+                      </div>
+                      <div class="column">
+                        <img class="demo cursor" src="arcă-7-01.jpg" style="width:100%" onclick="currentSlide(3)" alt="">
+                      </div>
+                      <div class="column">
+                        <img class="demo cursor" src="arcă-8-01.jpg" style="width:100%" onclick="currentSlide(4)" alt="">
+                      </div>
+                      <div class="column">
+                        <img class="demo cursor" src="ransom-1.jpg" style="width:100%" onclick="currentSlide(5)" alt="">
+                      </div>
+                      <div class="column">
+                        <img class="demo cursor" src="ransom-2.jpg" style="width:100%" onclick="currentSlide(6)" alt="">
+                      </div>
+                      <div class="column">
+                        <img class="demo cursor" src="ransom-3.jpg" style="width:100%" onclick="currentSlide(7)" alt="">
+                      </div>
+                      <div class="column">
+                        <img class="demo cursor" src="ransom-4.jpg" style="width:100%" onclick="currentSlide(8)" alt="">
+                      </div>
+                      <!-- <div class="column">
+                        <img class="demo cursor" src="bookmark-1.png" style="width:100%" onclick="currentSlide(9)" alt="">
+                      </div>
+                      <div class="column">
+                        <img class="demo cursor" src="bookmark-2.png" style="width:100%" onclick="currentSlide(10)" alt="">
+                      </div>
+                      <div class="column">
+                        <img class="demo cursor" src="bookmark-3.png" style="width:100%" onclick="currentSlide(11)" alt="">
+                      </div>
+                      <div class="column">
+                        <img class="demo cursor" src="bookmark-4.jpg" style="width:100%" onclick="currentSlide(12)" alt="">
+                      </div>
+                      <div class="column">
+                        <img class="demo cursor" src="icon-1.png" style="width:100%" onclick="currentSlide(13)" alt="">
+                      </div>
+                      <div class="column">
+                        <img class="demo cursor" src="icon-2.png" style="width:100%" onclick="currentSlide(13)" alt="">
+                      </div>
+                      <div class="column">
+                        <img class="demo cursor" src="icon-3.png" style="width:100%" onclick="currentSlide(15)" alt="">
+                      </div> -->
+
+                      <div class="row">
+                          <img src="banner.png" alt="">
+                      </div>
+                    </div>
+                  </div>
+
+        </div>
+    </section>
+
+    <footer id="footer"> 
+        <div class="container">
+            <!-- <div class="row"> -->
+                
+                <div id="foo-left">
+                    <p> &copy; 2020 Bontean Evelyn David</p>
+                </div>
+
+            <!-- </div> -->
+        </div>
+        
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>

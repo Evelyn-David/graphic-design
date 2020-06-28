@@ -1,0 +1,217 @@
+/* ================================================
+    General 
+   ================================================ */
+
+.bottom-border-divider{
+    border-bottom: 1px solid #dcdcdc;
+}
+
+.text-title{
+    text-align: left;
+    font-size: 32px;
+    line-height: 36px;
+    color: #333333;
+    font-family: "Quicksand";
+    font-weight: 500;
+    padding: 100px 0 10px 0;
+}
+
+.text-paragraph{
+    font-size: 16px;
+    line-height: 27px;
+    color: #929292;
+    font-family: "Quicksand";
+    font-weight: 400;
+}
+
+.text-btn{
+    font-size: 16px;
+    line-height: 27px;
+    color: #ffffff;
+    font-family: "Quicksand";
+    font-weight: 700;
+    text-align: center;
+}
+
+/* ================================================
+    header + footer
+   ================================================ */
+
+/* header --------------------------- */
+
+header{
+    background-color: #4b4b4b;
+    width: 100%;
+    height: 100px;
+}
+
+#header #logo{
+    text-align: center;
+    padding-top: 35px;
+}
+
+#header #logo h1{
+    font-size: 36px;
+    line-height: 24px;
+    color: #f0a500;
+    font-family: "Quicksand";
+    font-weight: 700;
+}
+
+/* footer --------------------------- */
+#footer{
+    background-color: #4b4b4b;
+    height: 100px;
+    position: relative;
+}
+
+#footer #foo-left{
+    text-align: center;
+    padding-top: 35px;
+    font-size: 16px;
+    line-height: 27px;
+    color: #f0a500;
+    font-family: "Quicksand";
+    font-weight: 400;
+}
+
+/* ================================================
+    Light-box gallery
+   ================================================ */
+
+.row > .column {
+    padding: 40px 8px;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .column {
+      padding-top: 40px;
+    float: left;
+    width: 25%;
+  }
+  
+  /* The Modal (background) */
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: black;
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    width: 90%;
+    max-width: 800px;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #999;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .mySlides {
+    display: none;
+  }
+  
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  img {
+    margin-bottom: -4px;
+  }
+  
+  .caption-container {
+    text-align: center;
+    background-color: black;
+    padding: 2px 16px;
+    color: white;
+  }
+  
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+  
+  img.hover-shadow {
+    transition: 0.3s;
+  }
+  
+  .hover-shadow:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  #banner{
+      background: url('/banner.png') cover no-repeat;
+      height: 100px;
+  }
